@@ -1,1 +1,1 @@
-Let's learn SASS!
+Let's learn Sass!

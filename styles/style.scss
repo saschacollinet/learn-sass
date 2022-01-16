@@ -6,10 +6,15 @@ header {
   display: flex;
   justify-content: center;
   color: $textColor;
-}
-
-header button {
-  background: $primaryBtn;
+  button {
+    background: $primaryBtn;
+    &:hover {
+      background: yellow;
+    }
+    &::after {
+      content: " This is a test!";
+    }
+  }
 }
 
 .contact button {

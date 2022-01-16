@@ -13,6 +13,14 @@ header button {
   background: #ec0c0c;
 }
 
+header button:hover {
+  background: yellow;
+}
+
+header button::after {
+  content: " This is a test!";
+}
+
 .contact button {
   background: #ec0c0c;
 }

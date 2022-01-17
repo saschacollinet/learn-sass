@@ -1,4 +1,4 @@
-header {
+header, .contact {
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -17,33 +17,19 @@ header {
   color: #281cd3;
 }
 
-header button {
+header button, .contact button {
   background: #ec0c0c;
 }
 
-header button:hover {
+header button:hover, .contact button:hover {
   background: yellow;
 }
 
-header button::after {
+header button::after, .contact button::after {
   content: " This is a test!";
 }
 
 .contact {
-  height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
   background: yellow;
 }
 /*# sourceMappingURL=style.css.map */

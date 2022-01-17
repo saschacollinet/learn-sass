@@ -8,9 +8,14 @@
 }
 
 header {
-  @include flexCenter(column, green);
+  @include flexCenter(column, lightblue);
 
   color: $textColor;
+
+  h1 {
+    font-weight: map-get($font-weights, bold);
+  }
+
   button {
     background: $primaryBtn;
     &:hover {

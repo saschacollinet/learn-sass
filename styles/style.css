@@ -13,12 +13,16 @@ header, .contact {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: green;
-  color: #281cd3;
+  background: lightblue;
+  color: #050505;
+}
+
+header h1, .contact h1 {
+  font-weight: 700;
 }
 
 header button, .contact button {
-  background: #ec0c0c;
+  background: #f00909;
 }
 
 header button:hover, .contact button:hover {
@@ -27,6 +31,10 @@ header button:hover, .contact button:hover {
 
 header button::after, .contact button::after {
   content: " This is a test!";
+}
+
+body {
+  font-family: "Roboto", sans-serif;
 }
 
 .contact {

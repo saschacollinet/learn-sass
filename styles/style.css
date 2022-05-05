@@ -40,4 +40,9 @@ body {
 .contact {
   background: yellow;
 }
+
+.contact .contact__button {
+  background: #f00909;
+  padding: 1rem;
+}
 /*# sourceMappingURL=style.css.map */
